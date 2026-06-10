@@ -7,87 +7,117 @@
   <link rel="stylesheet" href="niby.css" />
 </head>
 <body>
-
-  <div class="stars"></div>
-<header class="hero">
-  <div class="hero-content">
-    <p class="small-title">A birthday memory for you</p>
-    <h1>The Light We Shared</h1>
-    <p class="subtitle">Happy birthday, Niby ♡</p>
-
-    <p class="intro">
-      Happy birthday to the second most important person in my life.
-      To the person who brought music into my life and stayed beside me during these last three months.
-    </p>
-
-    <p class="intro">
-      I love you so much, and I really hope you get to spend a beautiful birthday with your friends.
-      Unfortunately, your favorite pipo won't be there with you, but don't worry: I will absolutely be inside your head. &lt;3
-    </p>
-
-    <div class="first-drawing">
-      <img src="photo/draw.png" alt="A drawing made for Niby">
-    </div>
-
-    <p class="intro">
-      This first image is a drawing I made for you.
-      And honestly, I would be the happiest person alive if you printed it and put it in your room,
-      together with all the other prints you already have.
-    </p>
-
-    <p class="intro">
-      This is our little story: all the screenshots, all the memories, all the places we crossed together,
-      and all the light you brought into my life.
-    </p>
+  <div class="sky-background" aria-hidden="true">
+    <div class="stars"></div>
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+    <div class="cloud cloud-one"></div>
+    <div class="cloud cloud-two"></div>
   </div>
-</header>
 
-  <main class="timeline" id="timeline"></main>
+  <section class="candle-gate" id="candleGate">
+    <div class="gate-glow"></div>
+    <button class="candle-button" id="lightCandle" type="button" aria-label="Light the candle">
+      <span class="candle-flame"></span>
+      <span class="candle-wick"></span>
+      <span class="candle-body"></span>
+    </button>
+    <p class="gate-title">Light this candle</p>
+    <p class="gate-text">to revisit the memories we left in the sky.</p>
+  </section>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="small-title">A birthday constellation for you</p>
+      <h1>The Light We Shared</h1>
+      <p class="subtitle">Happy birthday, Niby ♡</p>
+
+      <p class="intro">
+        Happy birthday to the second most important person in my life.
+        To the person who brought music into my life and stayed beside me during these last three months.
+      </p>
+
+      <p class="intro">
+        I love you so much, and I really hope you get to spend a beautiful birthday with your friends.
+        Unfortunately, your favorite pipo won't be there with you, but don't worry: I will absolutely be inside your head. &lt;3
+      </p>
+
+      <div class="first-drawing">
+        <span class="drawing-light"></span>
+        <img src="photo/draw.png" alt="A drawing made for Niby">
+      </div>
+
+      <p class="intro">
+        This first image is a drawing I made for you.
+        And honestly, I would be the happiest person alive if you printed it and put it in your room,
+        together with all the other prints you already have.
+      </p>
+
+      <p class="intro">
+        This is our little story: all the screenshots, all the memories, all the places we crossed together,
+        and all the light you brought into my life.
+      </p>
+    </div>
+  </header>
+
+  <main class="timeline" id="timeline" aria-label="Memory constellation"></main>
+
+  <section class="constellation-ending">
+    <p class="small-title">Our constellation</p>
+    <h2>Every memory became a star.</h2>
+    <div class="constellation-map" id="constellationMap" aria-hidden="true"></div>
+    <p>
+      Every little run, every joke, every screenshot, every quiet flight became part of this tiny sky.
+    </p>
+  </section>
 
   <section class="ending">
     <h2>Thank you for flying beside me.</h2>
     <p>
-      Some friendships don’t need a place to exist.  
-      They live in memories, in little screenshots, in silent flights,
-      in shared candles, and in the way someone made a game feel like home.
+      Some people enter your life quietly.<br>
+      A shared candle. A random message. A simple flight.
     </p>
-    <p class="signature">— with love, from your Sky friend Marta✦</p>
+    <p>
+      And before you realize it, they become part of your sky.
+      Thank you for being part of mine.
+    </p>
+    <p class="signature">— with love, from your Sky friend Marta ✦</p>
   </section>
+
   <section class="across-world">
-  <h2>Across the World</h2>
+    <h2>Across the World</h2>
 
-  <div class="world-connection">
+    <div class="world-connection">
+      <div class="country">
+        <img src="photo/italy.png" alt="Italy">
+        <span>Italy</span>
+      </div>
 
-    <div class="country">
-      <img src="photo/italy.png" alt="Italy">
-      <span>Italy</span>
+      <div class="connection-line">
+        <div class="glow-line"></div>
+        <span class="travelling-skid">✦</span>
+        <img src="photo/skylogo.png" alt="Sky Logo" class="sky-logo">
+      </div>
+
+      <div class="country">
+        <img src="photo/philippines.png" alt="Philippines">
+        <span>Philippines</span>
+      </div>
     </div>
 
-    <div class="connection-line">
-      <div class="glow-line"></div>
-      <img src="photo/skylogo.png" alt="Sky Logo" class="sky-logo">
-    </div>
+    <p class="world-text">
+      The distance between Italy and the Philippines is more than 10,000 kilometers.
+    </p>
 
-    <div class="country">
-      <img src="photo/philippines.png" alt="Philippines">
-      <span>Philippines</span>
-    </div>
+    <p class="world-text">
+      Somehow, Sky made it feel much smaller.
+    </p>
 
-  </div>
-
-  <p class="world-text">
-    The distance between Italy and the Philippines is more than 10,000 kilometers.
-  </p>
-
-  <p class="world-text">
-    Somehow, Sky made it feel much smaller.
-  </p>
-
-  <p class="world-final">
-    We haven't met in person yet.<br>
-    But somehow, we've already shared a sky.
-  </p>
-</section>
+    <p class="world-final">
+      We haven't met in person yet.<br>
+      But somehow, we've already shared a sky.
+    </p>
+  </section>
 
   <footer>
     <p>
@@ -96,6 +126,6 @@
     </p>
   </footer>
 
-<script src="niby.js"></script>
+  <script src="niby.js"></script>
 </body>
 </html>
