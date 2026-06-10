@@ -112,7 +112,6 @@ function createMemories() {
     section.innerHTML = `
       <img src="${memory.image}" alt="${memory.title}">
       <div class="memory-text">
-        <span class="realm-label">${memory.realm}</span>
         <p class="memory-date">${memory.date}</p>
         <h2>${memory.title}</h2>
         <p>${memory.text}</p>
