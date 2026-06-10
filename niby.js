@@ -58,14 +58,14 @@ const memories = [
   {
     image: "photo/beingkidnapped.jpg",
     date: "5 April 2026",
-    realm: "Golden Wasteland",
+    realm: "Valley of Triumph",
     title: "The Most Kidnappable Creature",
     text: "Somewhere along the way, I discovered one of your most dangerous traits: you are physically incapable of saying no. This explains why you get kidnapped so often in Sky and, apparently, in real life too. You're basically a small woodland creature whose only weakness is affection and attention. To this day, I still wonder how you've survived this long. Every instinct in your body seems to scream 'trust everyone'. Somehow, against all odds, you're still here. My adorable little creature. And yes, I would absolutely rescue you from every future kidnapping. MWAH."
   },
   {
     image: "photo/firstmute.jpg",
     date: "6 April 2026",
-    realm: "Vault of Knowledge",
+    realm: "My house",
     title: "The Silent Realm",
     text: "It was only a matter of time. After countless conversations that definitely weren't designed for a family-friendly game, Sky finally decided it had heard enough. In the middle of one particularly questionable discussion, you suddenly realized your messages were being censored. The game had officially muted you. I laughed so hard I could barely breathe. Looking back, this was probably the moment we learned that our sense of humor was too powerful for Sky's chat filter."
   },
